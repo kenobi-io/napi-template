@@ -22,7 +22,7 @@
         "strict": true,
         "target": "es2020",
         "paths": {
-            "@napi-template/util": ["libs/util/src/index.ts"],
+            "@napi-template/orm": ["libs/orm/src/index.ts"],
             "@core-template": ["../core-template/src/index.ts"]
         }
     }

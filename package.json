@@ -56,6 +56,8 @@
         "eslint-plugin-prefer-arrow": "^1.2.3",
         "eslint-plugin-prettier": "^4.1.0",
         "eslint-plugin-simple-import-sort": "^7.0.0",
+        "eslint-plugin-sort": "^2.4.0",
+        "eslint-plugin-sort-class-members": "^1.14.1",
         "husky": "^8.0.1",
         "jest": "28.1.2",
         "prettier": "^2.7.1",
@@ -89,7 +91,7 @@
             "<rootDir>/libs/"
         ],
         "moduleNameMapper": {
-            "^util/util(|/.*)$": "<rootDir>/libs/util/src/$1"
+            "^orm/orm(|/.*)$": "<rootDir>/libs/orm/src/$1"
         }
     }
 }

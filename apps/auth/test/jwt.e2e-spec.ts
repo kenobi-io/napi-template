@@ -19,7 +19,7 @@ describe('JWT', () => {
     it('should get a JWT then successfully make a call', async () => {
         const loginReq = await request(app.getHttpServer())
             .post('/auth/login')
-            .send({ username: 'john', password: 'changeme' })
+            .send({ password: 'changeme', username: 'john' })
             .expect(201);
 
         const token = (loginReq.body as { access_token: string }).access_token;
