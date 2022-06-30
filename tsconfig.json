@@ -1,0 +1,29 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": false,
+        "incremental": true,
+        "importHelpers": true,
+        "module": "esnext",
+        "moduleResolution": "nodenext",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "outDir": "./dist",
+        "removeComments": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "strictBindCallApply": true,
+        "strict": true,
+        "target": "es2020",
+        "paths": {
+            "@napi-template/util": ["libs/util/src/index.ts"],
+            "@core-template": ["../core-template/src/index.ts"]
+        }
+    }
+}
