@@ -23,7 +23,8 @@
         "target": "es2020",
         "paths": {
             "@napi-template/orm": ["libs/orm/src/index.ts"],
-            "@core-template": ["../core-template/src/index.ts"]
+            "@core-template": ["../core-template/src/index.ts"],
+            "@relax": ["../relax/src/index.ts"]
         }
     }
 }
